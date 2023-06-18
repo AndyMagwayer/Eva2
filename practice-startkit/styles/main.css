@@ -32,6 +32,97 @@
     gap: 20px;
 }
 
-.header .action-btn{
+.header .action-btn {
     font-size: 16px;
+}
+
+/* hero */
+
+.hero {
+    background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);
+    padding: 50px 0;
+}
+
+.hero .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-content {
+    width: 720px;
+
+}
+
+.hero .hero-title {
+    font-size: 56px;
+    font-weight: 900;
+
+}
+
+.hero .hero-title span {
+    background-color: #f9ed32;
+    padding: 10px;
+}
+
+.hero .hero-content .text {
+    font-size: 18px;
+    width: 580px;
+    margin: 27px 0 50px;
+}
+
+.hero .form{
+    display: flex;
+    align-items: stretch;
+}
+
+.hero .form .input{
+    border: 3px solid #0066FF;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 10px;
+    width: 250px;
+    font-size: 18px;
+}
+
+.hero .form .btn{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.hero .hero-content .list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hero .hero-content .list p{
+    font-size: 14px;
+}
+
+.hero .hero-content .list .dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.hero .form .input::placeholder{
+    font-size: 15px;
+    color: #9CA0AC;
+}
+
+.hero .brands-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #9CA0AC;
+    text-transform: uppercase;
+    margin:75px 0 20px;
+    text-align: center;
+}
+
+.hero .brands{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    justify-content: center;
 }
